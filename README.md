@@ -1,12 +1,70 @@
-# React + Vite
+# StudyTrack - Frontend Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte do frontend web do aplicativo StudyTrack, um sistema projetado para auxiliar estudantes na organização e gestão de suas atividades acadêmicas.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O frontend web do StudyTrack é construído utilizando uma stack moderna e eficiente:
 
-## Expanding the ESLint configuration
+*   **Framework:** React - Uma biblioteca JavaScript para construir interfaces de usuário interativas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades do Frontend
+
+O frontend do StudyTrack oferece a interface para o usuário interagir com as seguintes funcionalidades:
+
+*   **Gestão de Tarefas e Atividades:** Interface para adicionar, visualizar e categorizar tarefas acadêmicas (trabalhos, provas, leituras, revisões) por disciplina ou tipo.
+*   **Visualização de Lembretes:** Exibição de lembretes configurados para prazos importantes.
+*   **Acompanhamento Visual de Progresso:** Renderização de gráficos interativos para visualizar a distribuição de atividades e o progresso nos estudos.
+*   **Autenticação de Usuário:** Interface para login e registro de usuários, integrando-se com o sistema de autenticação do backend.
+
+## 🛠️ Como Executar Localmente
+
+Siga os passos abaixo para configurar e executar o frontend do StudyTrack em seu ambiente local:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [URL_DO_SEU_REPOSITORIO_FRONTEND]
+    cd studytrack-frontend
+    ```
+    *(Substitua `[URL_DO_SEU_REPOSITORIO_FRONTEND]` pelo URL real do seu repositório de frontend)*
+
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
+
+3.  **Configure as variáveis de ambiente:**
+    Crie um arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias para a conexão com o Firebase (ou outro backend). Exemplo:
+    ```
+    REACT_APP_FIREBASE_API_KEY=sua_api_key
+    REACT_APP_FIREBASE_AUTH_DOMAIN=seu_auth_domain
+    REACT_APP_FIREBASE_PROJECT_ID=seu_project_id
+    REACT_APP_FIREBASE_STORAGE_BUCKET=seu_storage_bucket
+    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=seu_messaging_sender_id
+    REACT_APP_FIREBASE_APP_ID=seu_app_id
+    ```
+    *(Ajuste conforme as variáveis de ambiente reais do seu projeto)*
+
+4.  **Inicie a aplicação:**
+    ```bash
+    npm start
+    # ou
+    yarn start
+    ```
+    A aplicação estará disponível em `http://localhost:3000` (ou outra porta, se configurado).
+
+## 🤝 Contribuições
+
+Sinta-se à vontade para contribuir com o desenvolvimento deste frontend! Para contribuir:
+
+1.  Faça um fork deste repositório.
+2.  Crie uma nova branch para sua feature ou correção de bug (`git checkout -b feature/minha-nova-feature`).
+3.  Faça suas alterações e realize o commit (`git commit -m 'feat: Adiciona funcionalidade X'` ou `fix: Corrige bug Y`).
+4.  Envie suas alterações para o seu fork (`git push origin feature/minha-nova-feature`).
+5.  Abra um Pull Request para a branch `main` (ou `master`) deste repositório, descrevendo suas alterações.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [Nome da Licença, ex: Licença MIT]. Consulte o arquivo `LICENSE` para mais detalhes.
