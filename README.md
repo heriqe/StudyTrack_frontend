@@ -23,16 +23,14 @@ Siga os passos abaixo para configurar e executar o frontend do StudyTrack em seu
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_FRONTEND]
+    git clone [https://github.com/heriqe/StudyTrack_frontend]
     cd studytrack-frontend
     ```
-    *(Substitua `[URL_DO_SEU_REPOSITORIO_FRONTEND]` pelo URL real do seu repositório de frontend)*
+    *(Substitua `[https://github.com/heriqe/StudyTrack_frontend]` pelo URL real do seu repositório de frontend)*
 
 2.  **Instale as dependências:**
     ```bash
     npm install
-    # ou
-    yarn install
     ```
 
 3.  **Configure as variáveis de ambiente:**
@@ -50,8 +48,6 @@ Siga os passos abaixo para configurar e executar o frontend do StudyTrack em seu
 4.  **Inicie a aplicação:**
     ```bash
     npm start
-    # ou
-    yarn start
     ```
     A aplicação estará disponível em `http://localhost:3000` (ou outra porta, se configurado).
 
@@ -64,7 +60,3 @@ Sinta-se à vontade para contribuir com o desenvolvimento deste frontend! Para c
 3.  Faça suas alterações e realize o commit (`git commit -m 'feat: Adiciona funcionalidade X'` ou `fix: Corrige bug Y`).
 4.  Envie suas alterações para o seu fork (`git push origin feature/minha-nova-feature`).
 5.  Abra um Pull Request para a branch `main` (ou `master`) deste repositório, descrevendo suas alterações.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a [Nome da Licença, ex: Licença MIT]. Consulte o arquivo `LICENSE` para mais detalhes.
