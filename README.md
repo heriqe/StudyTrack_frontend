@@ -26,7 +26,6 @@ Siga os passos abaixo para configurar e executar o frontend do StudyTrack em seu
     git clone [https://github.com/heriqe/StudyTrack_frontend]
     cd studytrack-frontend
     ```
-    *(Substitua `[https://github.com/heriqe/StudyTrack_frontend]` pelo URL real do seu repositório de frontend)*
 
 2.  **Instale as dependências:**
     ```bash
